@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtualenv
+venv/
+
+# Private working data & internal notes — NOT for publication
+sample/
+data/
+planning/
+benchmark.py
+
+# Build artifacts — rebuilt by `python -m ingest.run_ingest`
+sample_data/parquet/
+sample_data/catalog.duckdb
+*.duckdb
